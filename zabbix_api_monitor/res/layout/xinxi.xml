@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D6D6"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/rt"
+        android:layout_width="60dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="3dp"
+        android:layout_gravity="center|right"
+        android:textColor="#FF0000"
+        android:background="@null"
+        android:text="退出登录" />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="主机信息:"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/but"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="130dp"
+                android:gravity="center"
+                android:text="刷新"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+        <TextView
+           android:id="@+id/text"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#576B95"
+            android:gravity="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="redis信息"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/redis_but"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="110dp"
+                android:gravity="center"
+                android:text="刷新"
+                android:textColor="#333333"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/redis_text"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#333333"
+            android:gravity="center"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>
